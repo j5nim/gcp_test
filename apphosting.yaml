@@ -1,0 +1,10 @@
+# Firebase App Hosting 배포 설정
+# Next.js App Router SSR/SSG를 자동으로 지원함
+
+runConfig:
+  runtime: nodejs20
+  minInstances: 0
+  maxInstances: 10
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
